@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RoutesController {
+public class RouteLocationConfiguration {
 
     @Bean
     RouteLocator routeLocator(final RouteLocatorBuilder builder) {
